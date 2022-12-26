@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 50px;
+  grid-template-rows: min-content min-content;
+  grid-template-columns: repeat(5, min-content);
+}
