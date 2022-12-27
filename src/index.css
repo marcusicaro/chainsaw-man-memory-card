@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.cards {
+.cards-container {
   display: grid;
   grid-auto-flow: column;
   gap: 50px;
