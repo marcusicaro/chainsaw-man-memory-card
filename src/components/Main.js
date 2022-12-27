@@ -38,7 +38,7 @@ export default function Main(props) {
 
   const {score} = state
   return (
-    <div data-testid='score'>
+    <div id='game'>
       <Score currentScore={score.current} bestScore={score.best}/>
       <Cards handleResetScore={handleResetScore} handleIncreaseScore={handleIncreaseScore}/>
     </div>

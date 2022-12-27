@@ -1,11 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  display: flex;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* header */
+header {
+  background-color: rgb(112, 30, 30);
+  width: 100%;
+  padding: 0px;
+  display: grid;
   justify-content: center;
 }
-.cards-container {
+
+#logo-container {
+  width: 65vw;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+#denji-image {
+  height: 200px;
+}
+
+#logo {
+  max-width: 750px;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  #logo {
+    width: 100%;
+  }
+}
+
+/* main content of the page */
+#game {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#score {
+  align-self: flex-start;
   display: grid;
-  grid-auto-flow: column;
-  gap: 50px;
-  grid-template-rows: min-content min-content;
-  grid-template-columns: repeat(5, min-content);
+  margin: 25px 0px 25px;
+  gap: 10px;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content max-content;
+  width: min-content;
+}
+
+.cards-container {
+  display: flex;
+  max-width: 65vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  /* margin: 15px; */
+}
+
+.waifu {
+  height: 275px;
 }

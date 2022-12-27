@@ -82,8 +82,8 @@ export default function Cards(props) {
 
     const handleCardsRender = () => {
         return cards.map(card => ( 
-            <div key={card.id} onClick={() => {handleCardClick(card)}}>
-                <img src={card.image} alt={card.name}/>
+            <div className='card' key={card.id} onClick={() => {handleCardClick(card)}}>
+                <img className='waifu' src={card.image} alt={card.name}/>
                 <p>{card.name}</p>
             </div>
         ))
