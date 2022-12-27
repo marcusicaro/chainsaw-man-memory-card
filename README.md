@@ -1,1 +1,1 @@
-# Chainsaw man memory game
+# Chainsaw man memory card game
