@@ -7,10 +7,10 @@ export default function Header() {
     <header>
         <div id='logo-container'>
         <img src={denji} alt='Denji and Pochita' id='denji-image'/>
+
         <img src={logo} alt='Denji and Pochita' id='logo'/>
-        
         </div>
-        
+
     </header>
   )
 }
