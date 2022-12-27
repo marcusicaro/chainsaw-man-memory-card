@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Cards from './Cards'
 import Score from './Score'
 
-export default function Main() {
+export default function Main(props) {
   const [state, setState] = useState({
     score: {
       current: 0,
@@ -11,14 +11,6 @@ export default function Main() {
   });
 
   const handleIncreaseScore = () => {
-    // setState( 
-    //   {
-    //   ...state,
-    //   score: {
-    //     ...state.score,
-    //     current: state.score.current + 1
-    //   }
-    // })
     setState((prevState) => {
       if(prevState.score.current === prevState.score.best)
       return {score: {
@@ -46,7 +38,7 @@ export default function Main() {
 
   const {score} = state
   return (
-    <div>
+    <div data-testid='score'>
       <Score currentScore={score.current} bestScore={score.best}/>
       <Cards handleResetScore={handleResetScore} handleIncreaseScore={handleIncreaseScore}/>
     </div>
