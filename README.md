@@ -2,4 +2,4 @@
 
 Help Denji remember who he already invited to go on a date!
 
-Created for educational purposes only!
+Created for educational purposes only.
