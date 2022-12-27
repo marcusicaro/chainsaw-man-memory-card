@@ -73,9 +73,9 @@ header {
 }
 
 #score {
-  align-self: flex-start;
+  align-self: center;
   display: grid;
-  margin: 25px 0px 25px;
+  margin: 10px 0px 10px;
   gap: 10px;
   grid-template-columns: max-content;
   grid-template-rows: max-content max-content;
@@ -94,7 +94,10 @@ header {
   height: 300px;
   width: 200px;
   text-align: center;
-  /* margin: 15px; */
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  padding: 10px;
 }
 
 .waifu {
