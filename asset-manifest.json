@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chainsaw-man-memory-card/static/css/main.28d3761a.css",
+    "main.css": "/chainsaw-man-memory-card/static/css/main.bd90b212.css",
     "main.js": "/chainsaw-man-memory-card/static/js/main.95cad1af.js",
     "static/media/denji.png": "/chainsaw-man-memory-card/static/media/denji.c180142825ab22d8227d.png",
     "static/media/logo.png": "/chainsaw-man-memory-card/static/media/logo.7ce074d1d6725bd9a4bb.png",
     "index.html": "/chainsaw-man-memory-card/index.html",
-    "main.28d3761a.css.map": "/chainsaw-man-memory-card/static/css/main.28d3761a.css.map",
+    "main.bd90b212.css.map": "/chainsaw-man-memory-card/static/css/main.bd90b212.css.map",
     "main.95cad1af.js.map": "/chainsaw-man-memory-card/static/js/main.95cad1af.js.map"
   },
   "entrypoints": [
-    "static/css/main.28d3761a.css",
+    "static/css/main.bd90b212.css",
     "static/js/main.95cad1af.js"
   ]
 }
