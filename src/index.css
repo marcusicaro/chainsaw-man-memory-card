@@ -20,19 +20,22 @@ header {
   width: 65vw;
   display: flex;
   flex-wrap: wrap-reverse;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #denji-image {
+  margin-left: auto;
+  margin-right: auto;
   height: 200px;
 }
 
 #logo {
   max-width: 750px;
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1380px) {
   #logo {
     width: 100%;
   }
@@ -69,6 +72,7 @@ header {
 .card {
   height: 300px;
   width: 200px;
+  text-align: center;
   /* margin: 15px; */
 }
 
