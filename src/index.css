@@ -77,9 +77,17 @@ header {
   display: grid;
   margin: 10px 0px 10px;
   gap: 10px;
-  grid-template-columns: max-content;
-  grid-template-rows: max-content max-content;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
   width: min-content;
+}
+
+#current, #best {
+  background-color: #EDAB18;
+  color: rgb(112, 30, 30);
+  border-radius: 25px;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  padding: 5px;
 }
 
 .cards-container {
